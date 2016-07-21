@@ -9,10 +9,6 @@
   </head>
   <body>
 
-    <!-- <div ng-controller="myCtrl as vm">
-      {{vm.test}}
-    </div> -->
-
     <!-- menu tabs -->
     <nav class="navbar navbar-default">
       <div class="container-fluid">
@@ -30,7 +26,11 @@
       </div>
     </nav>
 
+    <!-- testing controller -->
     <h3>Hello World!</h3>
+    <div ng-controller="myCtrl as vm">
+      {{vm.test}}
+    </div>
 
     <!-- ng-view for routes -->
     <div ng-view></div>

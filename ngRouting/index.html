@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="lib/bootstrap-3.3.6-dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="lib/bootstrap-3.3.6-dist/css/bootstrap.min.css">
+
+    <title>ngRoute</title>
+  </head>
+  <body>
+
+    <!-- <div ng-controller="myCtrl as vm">
+      {{vm.test}}
+    </div> -->
+
+    <!-- menu tabs -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <ul id="myNav" class="nav nav-tabs">
+          <li role="presentation" class="active">
+            <a href="#/">Home</a>
+          </li>
+          <li role="presentation">
+            <a href="#/page1">Page 1</a>
+          </li>
+          <li role="presentation">
+            <a href="#/page2">Page 2</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <h3>Hello World!</h3>
+
+    <!-- ng-view for routes -->
+    <div ng-view></div>
+
+    <!-- Scripts -->
+    <script src="lib/jquery-2.2.4.min.js"></script>
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-route.min.js"></script>
+    <script src="lib/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+
+    <script src="js/app.js"></script>
+    <script src="js/myCtrl.js"></script>
+
+  </body>
+</html>
